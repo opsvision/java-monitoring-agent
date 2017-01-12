@@ -26,5 +26,5 @@ I now have my service running with my own name and icon (prunsrv.exe), and the s
 5. Now you have a Windows service of your Jar that will run with your own icon and name! You can also launch the monitor file and it will run in the system tray with your own icon and name.
 
 ## Acknowledgement
-Author: [@dishmael](https://github.com/dishmael)
-Company: [OpsVision](https://github.com/opsvision)
+* Author: [@dishmael](https://github.com/dishmael)
+* Company: [OpsVision](https://github.com/opsvision)
