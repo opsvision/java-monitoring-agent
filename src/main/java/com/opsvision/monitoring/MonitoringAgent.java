@@ -16,7 +16,7 @@ import com.opsvision.monitoring.monitors.MonitorType;
 
 public class MonitoringAgent {
 	
-	private final static String VERSION = "1.0"; 
+	private final static String VERSION = "3.0"; 
 	
 	private static final Logger logger = Logger.getLogger(MonitoringAgent.class);
 	private static Scheduler scheduler = null;
