@@ -1,5 +1,5 @@
 # Monitoring Agent [![Build Status](https://travis-ci.org/dishmael/java-monitoring-agent.svg?branch=master)](https://travis-ci.org/dishmael/java-monitoring-agent)
-This is a java-based agent I wrote for a customer who had a need for monitor legacy equipment.  The agent uses [Apache Commons Procrun](https://commons.apache.org/proper/commons-daemon/procrun.html) utility so the agent will run as a Microsoft Windows service.  The agent settings can be controlled using the config.properties file located under /src/main/resources.
+This is a java-based agent I wrote for a customer who had a need to monitor legacy equipment.  The agent uses [Quartz Scheduling](http://www.quartz-scheduler.org) for scheduled tasks and [Apache Commons Procrun](https://commons.apache.org/proper/commons-daemon/procrun.html) utility so the agent will run as a Microsoft Windows service.  The agent settings can be controlled using the config.properties file located under /src/main/resources.
 
 ## Instructions
 You can find the following instructions on [Stack Overflow](http://stackoverflow.com/questions/68113/how-to-create-a-windows-service-from-java-app), but I will put them here for posterity.
