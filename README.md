@@ -1,4 +1,4 @@
-# Monitoring Agent [![Build Status](https://travis-ci.org/dishmael/java-monitoring-agent.svg?branch=master)](https://travis-ci.org/dishmael/java-monitoring-agent)
+# Monitoring Agent [![Build Status](https://travis-ci.org/opsvision/java-monitoring-agent.svg?branch=master)](https://travis-ci.org/opsvision/java-monitoring-agent)
 This is a java-based agent I wrote for a customer who had a need to monitor legacy equipment.  The agent uses [Quartz Scheduling](http://www.quartz-scheduler.org) for scheduled tasks and [Apache Commons Procrun](https://commons.apache.org/proper/commons-daemon/procrun.html) utility so the agent will run as a Microsoft Windows service.  The agent settings can be controlled using the config.properties file located under /src/main/resources.
 
 ## Instructions
